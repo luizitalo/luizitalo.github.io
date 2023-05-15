@@ -821,6 +821,7 @@ header li:hover:after{
         padding-left: 50px;
         padding-right: 50px;
     }
+    
     .home {
         padding: 150px 50px 100px 50px;
     }
@@ -831,10 +832,17 @@ header li:hover:after{
 
 /* ok 900 */
 @media (max-width: 900px) {
-    header, footer {
+    header {
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .frep{
+        
+        background: var(--black1);
+         padding: 0px 200px 20px 200px;
+        display: flex;
+}
     
     ul, nav > button {
         display: none;
@@ -896,13 +904,20 @@ header li:hover:after{
     .menu-mobile.abri{
         visibility: visible;
     }
+    
 }
 
 /* ok 850 */
 @media (max-width: 850px) {
-    header, footer {
+    header {
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .frep{
+        background: var(--black1);
+    padding: 90px 200px 40px 200px;
+        display: flex;
     }
 
     .home {
@@ -942,6 +957,11 @@ header li:hover:after{
         padding-right: 40px;
     }
 
+    .frep{
+        background: var(--black1);
+         padding: 70px 200px 40px 200px;
+        display: flex;
+    }
     .home {
         padding: 150px 40px 100px 40px;
     }
@@ -953,10 +973,17 @@ header li:hover:after{
 
 /* ok 750 */
 @media (max-width: 750px) {
-    header, footer {
+    header{
         padding-left: 40px;
         padding-right: 40px;
     }
+
+    .frep{
+        
+        background: var(--black1);
+         padding: 100px 200px 40px 200px;
+        display: flex;
+}
 
     .home {
         padding: 150px 40px 100px 40px;
@@ -978,11 +1005,18 @@ header li:hover:after{
 
 /* ok 600 */
 @media (max-width: 600px) {
-    header, footer {
+    header {
         padding-left: 30px;
         padding-right: 30px;
     }
 
+    
+    .frep{
+        
+            background: var(--black1);
+             padding: 150px 200px 20px 200px;
+            display: flex;
+    }
     .home {
         padding: 100px 30px 100px 30px;
     }
@@ -1005,9 +1039,12 @@ header li:hover:after{
 
 /* ok 450 */
 @media (max-width: 450px) {
-    header, footer {
+    header {
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .frep{
+        visibility: hidden;
     }
 
     .home {
@@ -1030,10 +1067,16 @@ header li:hover:after{
 
 }
 
+
+
 @media (max-width: 400px) {
-    header, footer {
+    header {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .frep{
+        visibility: hidden;
     }
 
     .home {
