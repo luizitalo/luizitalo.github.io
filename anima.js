@@ -1,4 +1,4 @@
-const numeros = document.querySelectorAll('.feli');
+const numeros = document.querySelectorAll('.qwer');
 numeros.forEach((numero) => {
     const total = numero.innerText;
 
