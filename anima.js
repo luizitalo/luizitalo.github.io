@@ -1,4 +1,4 @@
-const numeros = document.querySelectorAll('.qwer');
+const numeros = document.querySelectorAll('.feli');
 numeros.forEach((numero) => {
     const total = numero.innerText;
 
@@ -8,7 +8,7 @@ numeros.forEach((numero) => {
        numero.innerText = start
         if (start >= total)
         clearInterval(timer)
-    }, 120)
+    }, 140)
 });
 
 
