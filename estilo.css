@@ -735,7 +735,7 @@ input:hover, textarea:hover {
 
 /* ============ FOOTER ============= */
 footer {
-    background: var(--black1);
+    background: var(    --black1);
     padding: 30px 200px 30px 200px;
     align-items: center;
     display: flex;
@@ -916,7 +916,7 @@ header li:hover:after{
 
     .frep{
         background: var(--black1);
-    padding: 90px 200px 40px 200px;
+        padding: 90px 200px 40px 200px;
         display: flex;
     }
 
