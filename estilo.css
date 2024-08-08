@@ -174,7 +174,7 @@ main img {
   flex-wrap: wrap;
 }
 
-.home-slv {
+.slv {
   position: relative;
   display: flex;
   width: calc(200px + 60px);
