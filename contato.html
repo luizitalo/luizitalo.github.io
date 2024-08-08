@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-
+    <link rel="shortcut icon" href="ico/icone.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-        
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="estilo.css">
-  
+
 
 </head>
+
 <body>
     <div class="tudo">
         <header>
             <nav>
                 <div>
                     <img src="" alt="">
-                    <a href="index.html"><p>Luiz Italo</p></a>
+                    <a href="index.html">
+                        <p>Luiz Italo</p>
+                    </a>
                 </div>
                 <ul>
-                    <a href="sobremim.html"><li>Sobre mim</li></a>
-                    <a href="habilidaddes.html"><li>Habilidades</li></a>
-                    <a href="certificados.html"><li>Certificados</li></a>
+                    <a href="sobremim.html">
+                        <li>Sobre mim</li>
+                    </a>
+                    <a href="habilidaddes.html">
+                        <li>Habilidades</li>
+                    </a>
+                    <a href="certificados.html">
+                        <li>Certificados</li>
+                    </a>
                     <!-- <a href="projetos.html"><li>Projetos</li></a> -->
                 </ul>
                 <button class="idrs">
-                   <a href="contato.html">Entrar em contato</a> 
+                    <a href="contato.html">Entrar em contato</a>
                 </button>
 
                 <a href="" class="menu-mobile">
@@ -42,70 +52,73 @@
                     </div>
                     Menu'
                 </a>
-        
+
             </nav>
 
-            
+
         </header>
 
-       <main>
-        <section class="contacts">
-            <div class="div-names">
-                <h3>
-                    Formas de entrar em <span>contato</span>.
-                </h3>
-            </div>
-            <div class="contacts-contents">
-
-                <div class="title-form">
-                    <h6>Me <span>envie</span> uma mensagem: </h6>
-
-                    <form action="mailto:luiz_italonunes@homtail.com" method="POST" enctype="text/plain" >
-                        <div>
-                            <label for="name">Nome: </label>
-                            <input type="text" name="name" id="name" placeholder="Insira seu nome aqui" required>
-                        </div>
-    
-                        <div>
-                            <label for="email">E-mail: </label>
-                            <input type="email" name="email" id="email" placeholder="Insira seu e-mail aqui" required>
-                        </div>
-                        <div>
-                            <label for="message">Mensagem: </label>
-                            <textarea name="message" id="message" rows="5" placeholder="Insira sua mensagem aqui" required></textarea>
-                        </div>
-                        <input type="submit" value="Enviar mensagem" class="button-enviar">
-                    </form>
+        <main>
+            <section class="contacts">
+                <div class="div-names">
+                    <h3>
+                        Formas de entrar em <span>contato</span>.
+                    </h3>
                 </div>
+                <div class="contacts-contents">
 
-                <div class="title-social">
-                    <h6>Ou entre em contato comigo através das redes sociais e/ou e-mail</h6>
-                    <div class="sociais">
-                        <a href="https://www.linkedin.com/in/luiz-italo-872807203/">
+                    <div class="title-form">
+                        <h6>Me <span>envie</span> uma mensagem: </h6>
+
+                        <form action="mailto:luiz_italonunes@homtail.com" method="POST" enctype="text/plain">
                             <div>
-                                <img src="/fotos/link.png" alt="Icone do linkedin">
+                                <label for="name">Nome: </label>
+                                <input type="text" name="name" id="name" placeholder="Insira seu nome aqui" required>
                             </div>
-                            Luiz italo Nunes da Silva
-                        </a>
-                        <a href="https://github.com/luizitalo">
+
                             <div>
-                                <img src="/fotos/git.png" alt="Icone do gh">
+                                <label for="email">E-mail: </label>
+                                <input type="email" name="email" id="email" placeholder="Insira seu e-mail aqui" required>
                             </div>
-                            LuizItaloGitHub
-                        </a>
-                        <a>
                             <div>
-                                <img src="fotos/italo.jpg" alt="">
+                                <label for="message">Mensagem: </label>
+                                <textarea name="message" id="message" rows="5" placeholder="Insira sua mensagem aqui" required></textarea>
                             </div>
-                        </a>
+                            <input type="submit" value="Enviar mensagem" class="button-enviar">
+                        </form>
+                    </div>
+
+                    <div class="title-social">
+                        <h6>Entre em contato comigo através das redes sociais/e-mail</h6>
+                        <div class="sociais">
+                            <a href="https://www.linkedin.com/in/luiz-italo-872807203/">
+                                <div>
+                                    <img class="contato-final" src="/fotos/link.png" alt="Icone do linkedin">
+                                </div>
+                                Luizitalolinkedin
+                            </a>
+                            <a href="https://github.com/luizitalo">
+                                <div>
+                                    <img class="contato-final" src="fotos/178-1787243_github-icon-png-github-icon-white-png.png" alt="Icone do gh">
+                                </div>
+                                LuizItaloGitHub
+                            </a>
+                            <a href="https://wa.me/5584999661219">
+                                <div>
+                                    <img class="contato-final" src="fotos/wha.png" alt="Icone do whatsapp">
+                                </div>
+                                luizitalowhatsapp
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-       </main> 
-       <footer>
-        <p>Criado por <a href="https://www.linkedin.com/in/luiz-italo-872807203/" target="_blank">Luiz Italo</a> e desenvolvido por Italo. &copy;Todos os direitos reservados.</p>
-    </footer>
+            </section>
+        </main>
+        <footer>
+            <p>Criado por <a href=" https://www.linkedin.com/in/luiz-italo-872807203/" target="_blank">Luiz Italo
+                </a> e desenvolvido por Italo. &copy;Todos os direitos reservados.</p>
+        </footer>
     </div>
 </body>
+
 </html>

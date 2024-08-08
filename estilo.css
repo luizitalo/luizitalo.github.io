@@ -126,13 +126,30 @@ main {
   /* background: var(--black1); */
 }
 .htms {
-  height: 40rem;
+  height: 50rem;
 }
 .sds {
   height: 38.9rem;
 }
+
+.img2 {
+  border-radius: 200px;
+  width: 150px;
+  height: 150px;
+}
+
+.vlss {
+  border-radius: 150px;
+  width: 250px;
+  height: 250px;
+}
+.contato-final {
+  border-radius: 150px;
+  width: 50px;
+  height: 50px;
+}
 main img {
-  border-radius: 100px;
+  border-radius: 150px;
   width: 200px;
   height: 200px;
 }
@@ -157,11 +174,30 @@ main img {
   flex-wrap: wrap;
 }
 
+.home-slv {
+  position: relative;
+  display: flex;
+  width: calc(200px + 60px);
+  height: calc(200px + 60px);
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background: linear-gradient(
+    45deg,
+    #0e0e0e,
+    #b9b9b9,
+    #ff6e65,
+    #0099ff,
+    #00ff00
+  );
+  background-size: 300%;
+  animation: animarborda 8s infinite;
+}
 .home-div-profile {
   position: relative;
   display: flex;
-  width: calc(200px + 10px);
-  height: calc(200px + 10px);
+  width: calc(200px + 50px);
+  height: calc(200px + 50px);
   justify-content: center;
   align-items: center;
   border-radius: 200px;
@@ -329,7 +365,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding: 100px 200px 100px 200px;
+  padding: 150px 200px 100px 200px;
   background: linear-gradient(274.81deg, #f2f2f2 92.22%, #fafafa 92.22%);
 }
 
@@ -351,7 +387,9 @@ h4 {
   display: flex;
   gap: 10px;
 }
-
+.vida {
+  color: var(--white2);
+}
 .box-skill {
   display: flex;
   flex-direction: column;
@@ -468,7 +506,7 @@ h4 {
 .div-img-hr > hr {
   border: none;
   height: 100%;
-  width: 5px;
+  width: 4px;
   background: var(--white1);
   border-radius: 10px;
   margin: 0;
@@ -578,7 +616,7 @@ h5 {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 100px 200px 100px 200px;
+  padding: 150px 200px 100px 200px;
 
   background: linear-gradient(93.82deg, #f2f2f2 93.72%, #fafafa 93.72%);
 }
@@ -673,13 +711,13 @@ textarea:hover {
   display: flex;
   flex-direction: column;
   width: 40%;
-  gap: 30px;
+  gap: 50px;
 }
 
 .sociais {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .sociais a {
@@ -696,7 +734,7 @@ textarea:hover {
   content: "";
   position: relative;
   display: flex;
-  padding: 10px;
+  padding: 2px;
   justify-content: center;
   background: linear-gradient(
     60deg,
