@@ -398,14 +398,14 @@ h4 {
 }
 .box-skill {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
   padding: 20px 40px;
   background: var(--black1);
   border: 3px solid var(--cta);
   border-radius: 50px 10px;
   gap: 20px;
-  width: 30%;
+  width: 70%;
 }
 .soft-div {
   color: var(--white1);
@@ -428,7 +428,6 @@ h4 {
 .icons,
 .names {
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 30px;
@@ -945,6 +944,7 @@ header li:hover:after {
 
   .div-skills-contents-1,
   .div-skills-contents-2 {
+    display: flex;
     flex-direction: column-reverse;
     gap: 20px;
   }
