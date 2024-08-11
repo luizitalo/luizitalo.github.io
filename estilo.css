@@ -15,8 +15,6 @@
   --border-cta: 50px;
 }
 
-/* As meta tags são linhas de código HTML, que descrevem o conteúdo do site. Portanto, são os metadados da página. Geralmente utilizado para inserir palavras chaves, descrições e informações importantes sobre a página. Muito utilizado para otimizar o SEO de um página. */
-
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -44,6 +42,12 @@ header div {
   display: flex;
 }
 
+.contato1 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 nav {
   width: 100%;
   display: flex;
@@ -148,10 +152,11 @@ main {
   width: 50px;
   height: 50px;
 }
+
 main img {
-  border-radius: 150px;
-  width: 200px;
-  height: 200px;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .dsa {
@@ -394,13 +399,12 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 30px 30px;
+  padding: 20px 40px;
   background: var(--black1);
-  /* background: var(#f2f2f2); */
   border: 3px solid var(--cta);
   border-radius: 50px 10px;
   gap: 20px;
-  width: 60%;
+  width: 30%;
 }
 .soft-div {
   color: var(--white1);
@@ -413,9 +417,17 @@ h4 {
   height: 1px;
 }
 
+.icons12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
 .icons,
 .names {
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 30px;
@@ -427,7 +439,7 @@ h4 {
 }
 .icon-name {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
 }
 
